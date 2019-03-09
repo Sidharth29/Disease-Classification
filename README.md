@@ -1,2 +1,2 @@
 # Disease-Classification
-A python project to build a classification model to detect the presence of a rare disease given a set of patient parameters
+The piece of code builds a classification model to detect the prescence of a rare disease given a set of patient parameters. The model is constructed using a declassified patient feature set is cleaned and processed. One unique issue addressed with this dataset is the problem of data imbalance. Since the records contain more data about patients without the disease there is a chance that the model may lack the sensitivity to detect the disease if the unprocessed data is used. A number of common techniques to solve this problem are explored in the model before constructing the classifier
