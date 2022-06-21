@@ -1,5 +1,5 @@
 # Disease-Classification
-The piece of code builds a classification model to detect the prescence of a rare disease given a set of patient parameters. The model is constructed using a declassified patient feature set is cleaned and processed. One unique issue addressed with this dataset is the problem of data imbalance. Since the records contain more data about patients without the disease there is a chance that the model may lack the sensitivity to detect the disease if the unprocessed data is used. A number of common techniques to solve this problem are explored in the model before constructing the classifier
+An approach to evaluate the performance of different classification models to pick out instances of a rare disease given a set of patient parameters. The dataset used consists of a set of anonymized features at a patient level. One unique issue addressed with this dataset is the problem of data imbalance. Since the records contain more data about patients without the disease there is a chance that the model may lack the sensitivity to detect the disease if the unprocessed data is used. A number of common techniques to solve this problem are explored in the preprocessing phase before the model building and evaluation 
 
 ## Data Uploading and Preprocessing
 • The data after being read into the program is removed of NULL values  
